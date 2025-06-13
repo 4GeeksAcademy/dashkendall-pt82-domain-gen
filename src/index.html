@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" href="./assets/img/4geeks.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>Domain Name Generator</title>
 
     <!-- Fontawesome is our recomended library for icons -->
     <link
@@ -16,9 +16,20 @@
   </head>
   <body>
     <!-- Write your HTML code here, you can delete everything withing the body tags -->
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./assets/img/rigo-baby.jpg" />
+    <div class="text-center container-fluid d-flex flex-column justify-content-center align-items-center">
+      <div class="card col-6 m-6 p-5 bg-success">
+        <h1 class="mt-5"><u>Domain</u> <u>Name</u> <u>Generator</u></h1>
+        <img class="m-auto" src="https://pngimg.com/uploads/pusheen/small/pusheen_PNG45.png" />
+      </div>
+
+           <div class="card col-6 mx-auto pt-3 bg-secondary">
+    <p id="domain">mycleverfriend.com</p>
+
+    
+
+</div>
+<button class="bg-primary-subtle p-2 m-5" type="button" onclick="location.reload();">Generate Domain</button>
+
       <p class="alert alert-warning mt-4">
         If this text is <b>not</b> centered and <b>yellow</b>, you probably have
         an error
@@ -33,3 +44,4 @@
     <script type="module" src="/app.js"></script>
   </body>
 </html>
+ 

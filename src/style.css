@@ -3,3 +3,15 @@
 body{
     background: white;
 }
+ 
+#domain {
+    color: rgb(202, 202, 202);
+    font-size: 22px;
+    font-style: italic;
+}
+
+button {
+    color: aliceblue;
+    background-color: rgba(0, 133, 0, 0.575);
+    font-style: oblique;
+}
