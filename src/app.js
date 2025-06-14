@@ -17,12 +17,25 @@ function generateDomain() {
       let pronoun = ['my', 'the', 'their', 'her', 'our', 'your'];
       let adj = ['clever', 'tiny', 'pretty', 'grumpy', 'adventurous', 'brave', 'happy'];
       let noun = ['friend', 'road', 'river', 'city', 'flamingo', 'friend', 'corner', 'tree'];
+
+           
+      
+      for (let i = 0; i < pronoun.length; i++) {
+        for (let j = 0; j < adj.length; j++) {
+          for (let k = 0; k < noun.length; k++) {
+            console.log(`${pronoun[i]}${adj[j]}${noun[k]}.com`);
+          }
+          }
+      }
+
     
         let randomPronoun = pronoun[Math.floor(Math.random() * pronoun.length)];
         let randomAdj = adj[Math.floor(Math.random() * adj.length)];
         let randomNoun = noun[Math.floor(Math.random() * noun.length)];
 
       return `${randomPronoun}${randomAdj}${randomNoun}.com`;
+
+
       
     }
 
